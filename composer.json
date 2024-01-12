@@ -1,0 +1,24 @@
+{
+  "name": "juszczyk/module-customer-cancel-order",
+  "version": "1.0.0",
+  "description": "N/A",
+  "type": "magento2-module",
+  "require": {
+    "php": ">=7.4",
+    "magento/framework": "*",
+    "magento/module-customer": ">=103.0.0",
+    "magento/module-sales": ">=103.0.0"
+  },
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Juszczyk\\CustomerCancelOrder\\": ""
+    }
+  }
+}
